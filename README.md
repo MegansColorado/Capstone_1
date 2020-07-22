@@ -14,7 +14,7 @@ COVID-19 Data by county for California was obtained from California Dept of Publ
 Supplemental Data:
 Population by county: https://www.california-demographics.com/counties_by_population
 GeoJson Date(for maps): https://github.com/codeforamerica/click_that_hood/blob/master/public/data/california-counties.geojson
-
+Coordinates for each county(for maps): http://www.ala.org/rt/magirt/publicationsab/ca
 
 #### California: presidential votes by county
 Create map of counties by majority population political vote
