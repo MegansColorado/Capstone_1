@@ -33,7 +33,9 @@ Coordinates for each county(for maps): http://www.ala.org/rt/magirt/publications
 
 
 #### California COVID rates by county
-![COVID July 15 Map](images/%poptotalcases_ july15_Map_3.png)
+![COVID July 15 Map](images/%poptotalcases_july15_Map_3.png)
+
+
 
 
 Are the two maps correlated - is the correlations statistically significant?
