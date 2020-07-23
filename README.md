@@ -15,7 +15,7 @@ MVP: The question I would like to answer is if there is a correlation between CO
 
     *Original data (on left) needed some reformatting to be usable. Removed NaN and other extraneous rows during import (on right).*
 
-    <img src="images/first_read_political_data.png" alt="raw" width="250" height='200'/>       <img src="images/political_clean_read_in.png" alt="raw" width="250" height='200'/>
+    <img src="images/first_read_political_data.png" alt="raw" width="350" height='200'/>       <img src="images/political_clean_read_in.png" alt="raw" width="350" height='200'/>
 <br>
 
 
@@ -46,14 +46,14 @@ MVP: The question I would like to answer is if there is a correlation between CO
 
     Format: 258KB .geojson file
 
-    <img src="images/geojson_data_screenshot.png" alt="raw" width="1200" height='100'/>
+    <img src="images/geojson_data_screenshot.png" alt="raw" width="400" height='200'/>
 
 
 5. Coordinates for each county(for maps): http://www.ala.org/rt/magirt/publicationsab/ca
 
 ## **C. Data Visualization**
 ### 1. California Political Affiliation by County:
-<img src="images/Dem_Rep_Map_1.png" alt="raw" width="250" height='250'/>    <img src="images/%_Political_Map_2.png" alt="raw" width="250" height='250'/> 
+<img src="images/Dem_Rep_Map_1.png" alt="raw" width="250" height='250'/> <img src="images/%_Political_Map_2.png" alt="raw" width="250" height='250'/> 
 
 **Left Political Image - Democrat v. Republican Map:**
 Democratic counties tend to be along the coast and have cities with higher population densities, Republican Counties are further inland and more rural populations
@@ -65,7 +65,7 @@ This map goes beyond Democrat/Republican to show % of the counties political aff
 ### 2. California COVID Rates by County
 
 
-<img src="images/%poptotalcases_july15_Map_3.png" alt="raw" width="250" height='250'/>    <img src="images/%popNEWcases_july15_Map_4.png" alt="raw" width="250" height='250'/>
+<img src="images/%poptotalcases_july15_Map_3.png" alt="raw" width="250" height='250'/> <img src="images/%popNEWcases_july15_Map_4.png" alt="raw" width="250" height='250'/>
 
 **Left COVID Image - TOTAL COVID cases as a % of population as of July 15, 2020:**
 This shows total (cumulative) cases in each county and is normalized by population. 
