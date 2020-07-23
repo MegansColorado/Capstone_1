@@ -8,12 +8,18 @@ My idea is to see if there is a correlation between COVID infection rates and po
 ## The Raw Data: 
 
 Voting Data for political affiliation was obtained from the State od California's official website: https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/presidential-primary-election-june-7-2016/statement-vote/
+Format: 82KB .xls file
 
 COVID-19 Data by county for California was obtained from California Dept of Public Health: https://data.chhs.ca.gov/dataset/california-covid-19-hospital-data-and-case-statistics
+Format: 254 KB .csv file
 
 Supplemental Data:
 Population by county: https://www.california-demographics.com/counties_by_population
+Format: .csv file
+
 GeoJson Date(for maps): https://github.com/codeforamerica/click_that_hood/blob/master/public/data/california-counties.geojson
+Format: 258KB .geojson file
+
 Coordinates for each county(for maps): http://www.ala.org/rt/magirt/publicationsab/ca
 
 #### California: presidential votes by county
@@ -21,9 +27,8 @@ Create map of counties by majority population political vote
 
 ![title](images/image1.png)
 
-
-![Dem_Rep_Map](images/Dem_Rep_Map_1.png)
-
+<img src="/images/Dem_Rep_Map_1.png"/>
+<img src="/images/hash_bar.png" width=50% height=50%>
 
 
 #### California COVID rates by county
