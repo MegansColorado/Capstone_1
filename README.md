@@ -98,16 +98,34 @@ In the state of California, is political affiliation and COVID cases correlated?
 **H null: there is no difference between COVID rates from Republican and Democratic Counties**
 
 **H alt: there is a significant difference between COVID rates in Republican and Democratic Counties**
+### **1. T-Test**
+* Sample 1: Democratic Counties: mean county total cases by % of population   
+* Sample 2: Republican Counties: mean county total cases by % of population
+* alpha = .05
 
-Sample 1: Democratic Counties: mean county total cases by % of population   
-Sample 2: Republican Counties: mean county total cases by % of population
-
-alpha = .05
-
-<img src="images/ttest.png" alt="raw" width=75% height=75%/>
+<img src="images/ttest.png" alt="raw" width=100% height=100%/>
 
 *Based on the ttest returning a p-value of .046 we would fail to reject the null hypothesis.*
 
 <img src="images/ttest_dems.png" alt="raw" width=50% height=50%/><img src="images/ttest_repubs.png" alt="raw" width=50% height=50%/>
+
+*When we plot the samples above we see that they do not have a normal distribution... so this may not be all that helpful.*
+
+### **2. Mann Whitney U Test**
+
+The Mann-Whitney U test is used to compare differences between two independent groups when the dependent variable is either ordinal or continuous, but not normally distributed.
+
+* Sample_3: July 15th (last day) snapshot - Democrats
+* Sample_4: July 15 (last day) snapshot - Republicans
+* alpha = .05
+
+<img src="images/mannwhitneyu_test.png" alt="raw" width=100% height=100%/>
+
+*Based on the Mann Whitney U test returning a P-Value of .0213 we would reject the null hypothesis.*
+
+<img src="images/mwU_dems.png" alt="raw" width=50% height=50%/><img src="images/mwU_repubs.png" alt="raw" width=50% height=50%/>
+
+* The distributions of Sample 3 and Sample 4 (above). 
+
 
 
