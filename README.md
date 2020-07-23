@@ -55,10 +55,10 @@ MVP: The question I would like to answer is if there is a correlation between CO
 ### 1. California Political Affiliation by County:
 <img src="images/Dem_Rep_Map_1.png" alt="raw" width="250" height='250'/> <img src="images/%_Political_Map_2.png" alt="raw" width="250" height='250'/> 
 
-**Left Political Image - Democrat v. Republican Map:**
+**First Political Image - Democrat v. Republican Map:**
 Democratic counties tend to be along the coast and have cities with higher population densities, Republican Counties are further inland and more rural populations
 
-**Right Political Image - % Political Affiliation Map:**
+**Second Political Image - % Political Affiliation Map:**
 This map goes beyond Democrat/Republican to show % of the counties political affiliation. You may notice that there are very few counties that are 'mostly' Democrat or Republican.
 
 
@@ -67,10 +67,10 @@ This map goes beyond Democrat/Republican to show % of the counties political aff
 
 <img src="images/%poptotalcases_july15_Map_3.png" alt="raw" width="250" height='250'/> <img src="images/%popNEWcases_july15_Map_4.png" alt="raw" width="250" height='250'/>
 
-**Left COVID Image - TOTAL COVID cases as a % of population as of July 15, 2020:**
+**First COVID Image - TOTAL COVID cases as a % of population as of July 15, 2020:**
 This shows total (cumulative) cases in each county and is normalized by population. 
 
-**Right COVID Image - NEW COVID cases as a % of population as of July 15,2020:**
+**Second COVID Image - NEW COVID cases as a % of population as of July 15,2020:**
 This is a snapshot of only new cases as of the last day data was pulled for this project. Notice the overlap from the counties in the previous map. 
 
 
@@ -85,11 +85,11 @@ While not identical, it does appear that new daily cases seem to loosely mimic t
 
  <img src="images/dem_repub_meandailyTOTALcases_Map_8.png" alt="raw" width="300" height='200'/> <img src="images/dem_repub_meandailyTOTALcases_Map_6.png" alt="raw" width="300" height='200'/>  
 
-**Mean TOTAL Daily Cases for Republican vs. Democratic Counties (above LEFT) and LOG version (above RIGHT):** These graphs seem to underscore that while Democratic counties have a higher % of covid cases per population, both types of counties have generally the same trajectory. Three is an interesting narrowing of the lines around late June, early July where it appears Republican counties are increasing faster than Democratic counties. 
+**Mean TOTAL Daily Cases for Republican vs. Democratic Counties (First image above) and LOG version (Second image above):** These graphs seem to underscore that while Democratic counties have a higher % of covid cases per population, both types of counties have generally the same trajectory. Three is an interesting narrowing of the lines around late June, early July where it appears Republican counties are increasing faster than Democratic counties. 
 
  <img src="images/dem_repub_meanTOTALcases_sliding_scale_7.png" alt="raw" width="400" height='200'/>
 
- **Mean TOTAL cases (all counties and all days) vs. %Republican <==> %Democrat (sliding scale):** While an interesting excersize this graph doesnt tell us much other than making it obvious that there are more Democrat Counties (36 Counties) than Republican (22 Counties)
+ **Mean TOTAL cases (all counties and all days) vs. % Republican <==> % Democrat (sliding scale):** While an interesting excersize this graph doesnt tell us much other than making it obvious that there are more Democrat Counties (36 Counties) than Republican (22 Counties)
 
 
 ## **D. Hypothesis Testing**
