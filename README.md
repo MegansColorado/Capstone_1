@@ -13,9 +13,9 @@ MVP: The question I would like to answer is if there is a correlation between CO
 
     Format: 82KB .xls file
 
-    *Original data (on left) needed some reformatting to be usable. Removed NaN and other extraneous rows during import (on right).*
+    *Original data (first image) needed some reformatting to be usable. Removed NaN and other extraneous rows during import (second image).*
 
-    <img src="images/first_read_political_data.png" alt="raw" width="350" height='200'/>       <img src="images/political_clean_read_in.png" alt="raw" width="350" height='200'/>
+    <img src="images/first_read_political_data.png" alt="raw" width=50% height=50%/> <img src="images/political_clean_read_in.png" alt="raw" width=50% height=50%/>
 <br>
 
 
@@ -28,7 +28,7 @@ MVP: The question I would like to answer is if there is a correlation between CO
     
     *This data was already pretty clean at download with very few to none formatiing issues or NaN values.* 
 
-    <img src="images/covid_screenshot.png" alt="raw" width="200" height='75'/>       <img src="images/covid_info.png" alt="raw" width="200" height='75'/>
+    <img src="images/covid_screenshot.png" alt="raw" width=50% height=50%/><img src="images/covid_info.png" alt="raw" width=50% height=50%/>
 <br>
 
 *Supplemental Data:*
@@ -37,7 +37,7 @@ MVP: The question I would like to answer is if there is a correlation between CO
 
     Format: .csv file
 
-    <img src="images/pop_data_clean.png" alt="raw" width="125" height='100'/>
+    <img src="images/pop_data_clean.png" alt="raw" width=50% height=50%/>
 
 
 
@@ -46,14 +46,14 @@ MVP: The question I would like to answer is if there is a correlation between CO
 
     Format: 258KB .geojson file
 
-    <img src="images/geojson_data_screenshot.png" alt="raw" width="400" height='200'/>
+    <img src="images/geojson_data_screenshot.png" alt="raw" width=50% height=50%/>
 
 
 5. Coordinates for each county(for maps): http://www.ala.org/rt/magirt/publicationsab/ca
 
 ## **C. Data Visualization**
 ### 1. California Political Affiliation by County:
-<img src="images/Dem_Rep_Map_1.png" alt="raw" width="250" height='250'/> <img src="images/%_Political_Map_2.png" alt="raw" width="250" height='250'/> 
+<img src="images/Dem_Rep_Map_1.png" alt="raw" width=50% height=50%/><img src="images/%_Political_Map_2.png" alt="raw" width=50% height=50%/> 
 
 **First Political Image - Democrat v. Republican Map:**
 Democratic counties tend to be along the coast and have cities with higher population densities, Republican Counties are further inland and more rural populations
@@ -65,7 +65,7 @@ This map goes beyond Democrat/Republican to show % of the counties political aff
 ### 2. California COVID Rates by County
 
 
-<img src="images/%poptotalcases_july15_Map_3.png" alt="raw" width="250" height='250'/> <img src="images/%popNEWcases_july15_Map_4.png" alt="raw" width="250" height='250'/>
+<img src="images/%poptotalcases_july15_Map_3.png" alt="raw" width=50% height=50%/><img src="images/%popNEWcases_july15_Map_4.png" alt="raw" width=50% height=50%/>
 
 **First COVID Image - TOTAL COVID cases as a % of population as of July 15, 2020:**
 This shows total (cumulative) cases in each county and is normalized by population. 
@@ -78,16 +78,16 @@ This is a snapshot of only new cases as of the last day data was pulled for this
 ### 3. Political and COVID 
 *....Now that we have explored each data set individually we can set out to better understand if political affiliation is correlated to COVID cases. Its not easy to tell if they are correlated just using the above maps.  (joined data sets for the following visualizations)* 
 
-<img src="images/dem_repub_meandailyNEWcases_Map_5.png" alt="raw" width="400" height='200'/> 
+<img src="images/dem_repub_meandailyNEWcases_Map_5.png" alt="raw" width=75% height=75%/> 
 
 **Mean New Daily Cases for Republican vs. Democratic Counties (above):**
 While not identical, it does appear that new daily cases seem to loosely mimic trends for both political affiliations.
 
- <img src="images/dem_repub_meandailyTOTALcases_Map_8.png" alt="raw" width="300" height='200'/> <img src="images/dem_repub_meandailyTOTALcases_Map_6.png" alt="raw" width="300" height='200'/>  
+ <img src="images/dem_repub_meandailyTOTALcases_Map_8.png" alt="raw" width=50% height=50%/><img src="images/dem_repub_meandailyTOTALcases_Map_6.png" alt="raw" width=50% height=50%/>  
 
 **Mean TOTAL Daily Cases for Republican vs. Democratic Counties (First image above) and LOG version (Second image above):** These graphs seem to underscore that while Democratic counties have a higher % of covid cases per population, both types of counties have generally the same trajectory. Three is an interesting narrowing of the lines around late June, early July where it appears Republican counties are increasing faster than Democratic counties. 
 
- <img src="images/dem_repub_meanTOTALcases_sliding_scale_7.png" alt="raw" width="400" height='200'/>
+ <img src="images/dem_repub_meanTOTALcases_sliding_scale_7.png" alt="raw" width=75% height=75%/>
 
  **Mean TOTAL cases (all counties and all days) vs. % Republican <==> % Democrat (sliding scale):** While an interesting excersize this graph doesnt tell us much other than making it obvious that there are more Democrat Counties (36 Counties) than Republican (22 Counties)
 
@@ -104,4 +104,10 @@ Sample 2: Republican Counties: mean county total cases by % of population
 
 alpha = .05
 
-<img src="images/ttest_dems.png" alt="raw" width="400" height='200'/> <img src="images/ttest_repubs.png" alt="raw" width="400" height='200'/>
+<img src="images/ttest.png" alt="raw" width=75% height=75%/>
+
+*Based on the ttest returning a p-value of .046 we would fail to reject the null hypothesis.*
+
+<img src="images/ttest_dems.png" alt="raw" width=50% height=50%/><img src="images/ttest_repubs.png" alt="raw" width=50% height=50%/>
+
+
