@@ -103,3 +103,5 @@ Sample 1: Democratic Counties: mean county total cases by % of population
 Sample 2: Republican Counties: mean county total cases by % of population
 
 alpha = .05
+
+<img src="images/ttest_dems.png" alt="raw" width="400" height='200'/> <img src="images/ttest_repubs.png" alt="raw" width="400" height='200'/>
