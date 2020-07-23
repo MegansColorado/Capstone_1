@@ -22,17 +22,19 @@ Format: 258KB .geojson file
 
 Coordinates for each county(for maps): http://www.ala.org/rt/magirt/publicationsab/ca
 
-#### California: presidential votes by county
-Create map of counties by majority population political vote
+## California: presidential votes by county
 
-![title](images/image1.png)
+#### Simple Democrat v. Republican Map by County
+![Democrat/Republican Map](images/Dem_Rep_Map_1.png)
 
-<img src="/images/Dem_Rep_Map_1.png"/>
-<img src="/images/hash_bar.png" width=50% height=50%>
+#### This map does beyond Democrat/Republican to show % of the counties politial affiliation. 
+![Political affiliation Map](images/%_Political_Map_2.png)
+
 
 
 #### California COVID rates by county
-Create map of which counties have highest rate of infections since restrictions lifted
+![COVID July 15 Map](images/%poptotalcases_ july15_Map_3.png)
+
 
 Are the two maps correlated - is the correlations statistically significant?
 Null Hypothesis: political affiliation of majority of the county is not correlated to increased COVID infections
