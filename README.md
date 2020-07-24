@@ -15,7 +15,7 @@ MVP: The question I would like to answer is if there is a correlation between CO
 
     *Original data (first image) needed some reformatting to be usable. Removed NaN and other extraneous rows during import (second image).*
 
-    <img src="images/first_read_political_data.png" alt="raw" width=50% height=50%/> <img src="images/political_clean_read_in.png" alt="raw" width=50% height=50%/>
+    <img src="images/first_read_political_data.png" alt="raw" width=50% height=50%/><img src="images/political_clean_read_in.png" alt="raw" width=50% height=50%/>
 <br>
 
 
