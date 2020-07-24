@@ -53,7 +53,7 @@ MVP: The question I would like to answer is if there is a correlation between CO
 
 ## **C. Data Visualization**
 ### 1. California Political Affiliation by County:
-<img src="images/Dem_Rep_Map_1.png" alt="raw" width=50% height=50%/><img src="images/%_Political_Map_2.png" alt="raw" width=50% height=50%/> 
+<img src="images/Dem_Rep_Map_1.png" alt="raw" width=50% height=50%/><img src="https://github.com/MegansColorado/Capstone_1/blob/master/images/%25_Political_Map_2.png" alt="raw" width=50% height=50%/> 
 
 **First Political Image - Democrat v. Republican Map:**
 Democratic counties tend to be along the coast and have cities with higher population densities, Republican Counties are further inland and more rural populations
@@ -65,7 +65,7 @@ This map goes beyond Democrat/Republican to show % of the counties political aff
 ### 2. California COVID Rates by County
 
 
-<img src="images/%poptotalcases_july15_Map_3.png" alt="raw" width=50% height=50%/><img src="images/%popNEWcases_july15_Map_4.png" alt="raw" width=50% height=50%/>
+<img src="https://github.com/MegansColorado/Capstone_1/blob/master/images/%25poptotalcases_july15_Map_3.png" alt="raw" width=50% height=50%/><img src="https://github.com/MegansColorado/Capstone_1/blob/master/images/%25popNEWcases_july15_Map_4.png" alt="raw" width=50% height=50%/>
 
 **First COVID Image - TOTAL COVID cases as a % of population as of July 15, 2020:**
 This shows total (cumulative) cases in each county and is normalized by population. 
