@@ -53,6 +53,8 @@ MVP: The question I would like to answer is if there is a correlation between CO
 
 ## **C. Data Visualization**
 ### 1. California Political Affiliation by County:
+*Maps, code, and data cleaning for this section can be found in notebook titled [Cali_political_population_data_exploration][reference link for notebook]:https://github.com/MegansColorado/Capstone_1/blob/master/Cali_political_population_data_exploration.ipynb .*
+
 <img src="images/Dem_Rep_Map_1.png" alt="raw" width=50% height=50%/><img src="https://github.com/MegansColorado/Capstone_1/blob/master/images/%25_Political_Map_2.png" alt="raw" width=50% height=50%/> 
 
 **First Political Image - Democrat v. Republican Map:**
@@ -63,7 +65,7 @@ This map goes beyond Democrat/Republican to show % of the counties political aff
 
 
 ### 2. California COVID Rates by County
-
+*Maps, code, and data cleaning for this section can be found in notebook titled 'Cali_covid_data_exploration.'*
 
 <img src="https://github.com/MegansColorado/Capstone_1/blob/master/images/%25poptotalcases_july15_Map_3.png" alt="raw" width=50% height=50%/><img src="https://github.com/MegansColorado/Capstone_1/blob/master/images/%25popNEWcases_july15_Map_4.png" alt="raw" width=50% height=50%/>
 
@@ -76,6 +78,8 @@ This is a snapshot of only new cases as of the last day data was pulled for this
 
 
 ### 3. Political and COVID 
+*Maps, code, and data cleaning for this section (and the remaining sections) can be found in the notebook titled 'Covid_Political_Data.'*
+
 *....Now that we have explored each data set individually we can set out to better understand if political affiliation is correlated to COVID cases. Its not easy to tell if they are correlated just using the above maps.  (joined data sets for the following visualizations)* 
 
 <img src="images/dem_repub_meandailyNEWcases_Map_5.png" alt="raw" width=75% height=75%/> 
