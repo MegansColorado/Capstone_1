@@ -1,11 +1,13 @@
-# Capstone 1: COVID-19 v. Political Affiliation in California by County
+# COVID-19 v. Political Affiliation in California by County
 
 
+<img src="https://github.com/MegansColorado/Capstone_1/blob/master/images/Coronavirus-America-New-York-Statue-of-Liberty-Mask.jpg" alt="raw" width=100% height=100%/>
+<br>
 
 ## **A. An Overview** 
 With the presidential election heating up there is significant debate on social media around whether the Corona virus pandemic is being overblown by the media. It is suggested that Americans who believe that COVID-19 is a hoax and over blown in the media are less likely to take safety precautions to reduce the spread of the virus (ie. PPE like masks, social distancing, etc).  Many other Americans believe that we are truly in a global pandemic and are likely to follow the state mandates more consistently. While there are many debateable reasons for why this is the case, the 2 lines of thought can generally be bucketed into the 2 major political parties: Republican or Democrat.
 
-MVP: The question I would like to answer is if there is a correlation between COVID infection rates and political affiliation for various counties in the state of California. MVP+ would be to see if there is any difference since the state started to reopen arounf May 18, 2020.  
+MVP: The question I would like to answer is if there is a correlation between COVID infection rates and political affiliation for various counties in the state of California. MVP+ would be to see if there is any difference since the state started to reopen around May 18, 2020.  
 
 ## **B. The Raw Data** 
 
@@ -82,7 +84,7 @@ Maps, code, and data cleaning for this section (and the remaining sections) can 
 
 *....Now that we have explored each data set individually we can set out to better understand if political affiliation is correlated to COVID cases. Its not easy to tell if they are correlated just using the above maps.  (joined data sets for the following visualizations)* 
 
-<img src="images/dem_repub_meandailyNEWcases_Map_5.png" alt="raw" width=75% height=75%/> 
+<img src="images/dem_repub_meandailyNEWcases_Map_5.png" alt="raw" width=100% height=100%/> 
 
 **Mean New Daily Cases for Republican vs. Democratic Counties (above):**
 While not identical, it does appear that new daily cases seem to loosely mimic trends for both political affiliations.
@@ -143,3 +145,5 @@ The Mann-Whitney U test is used to compare differences between two independent g
 ### F. Future Actions
 
 Moving forward we could do the same for each state in the US and consider how political messaging differs to each group from their respective parties. 
+
+<img src="https://github.com/MegansColorado/Capstone_1/blob/master/images/covidpolitics.jpg" alt="raw" width=50% height=50%/>
