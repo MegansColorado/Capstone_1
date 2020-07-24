@@ -3,7 +3,7 @@
 
 
 ## **A. An Overview** 
-With the presidential election heating up there is significant debate on social media around whether the Corona virus pandemic is being overblown by the media. It is suggested that Americans who believe that COVID-19 is a hoax and over blown in the media are less likely to take safty precautions to reduce the spread of the virus (ie. PPE like masks, social distancing, etc).  Many other Americans believe that we are truly in a global pandemic and are likely to follow the state mandates more consistently. While there are many debateable reasons for why this is the case, the 2 lines of thought can generally be bucketed into the 2 major political parties: Republican or Democrat.
+With the presidential election heating up there is significant debate on social media around whether the Corona virus pandemic is being overblown by the media. It is suggested that Americans who believe that COVID-19 is a hoax and over blown in the media are less likely to take safety precautions to reduce the spread of the virus (ie. PPE like masks, social distancing, etc).  Many other Americans believe that we are truly in a global pandemic and are likely to follow the state mandates more consistently. While there are many debateable reasons for why this is the case, the 2 lines of thought can generally be bucketed into the 2 major political parties: Republican or Democrat.
 
 MVP: The question I would like to answer is if there is a correlation between COVID infection rates and political affiliation for various counties in the state of California. MVP+ would be to see if there is any difference since the state started to reopen arounf May 18, 2020.  
 
@@ -56,7 +56,7 @@ MVP: The question I would like to answer is if there is a correlation between CO
 <img src="images/Dem_Rep_Map_1.png" alt="raw" width=50% height=50%/><img src="https://github.com/MegansColorado/Capstone_1/blob/master/images/%25_Political_Map_2.png" alt="raw" width=50% height=50%/> 
 
 **First Political Image - Democrat v. Republican Map:**
-Democratic counties tend to be along the coast and have cities with higher population densities, Republican Counties are further inland and more rural populations
+Democratic counties tend to be along the coast and have cities with higher population densities, Republican Counties are further inland and more rural populations.
 
 **Second Political Image - % Political Affiliation Map:**
 This map goes beyond Democrat/Republican to show % of the counties political affiliation. You may notice that there are very few counties that are 'mostly' Democrat or Republican.
@@ -85,7 +85,7 @@ While not identical, it does appear that new daily cases seem to loosely mimic t
 
  <img src="images/dem_repub_meandailyTOTALcases_Map_8.png" alt="raw" width=50% height=50%/><img src="images/dem_repub_meandailyTOTALcases_Map_6.png" alt="raw" width=50% height=50%/>  
 
-**Mean TOTAL Daily Cases for Republican vs. Democratic Counties (First image above) and LOG version (Second image above):** These graphs seem to underscore that while Democratic counties have a higher % of covid cases per population, both types of counties have generally the same trajectory. Three is an interesting narrowing of the lines around late June, early July where it appears Republican counties are increasing faster than Democratic counties. 
+**Mean TOTAL Daily Cases for Republican vs. Democratic Counties (First image above) and LOG version (Second image above):** These graphs seem to underscore that while Democratic counties have a higher % of covid cases per population, both types of counties have generally the same trajectory. There is an interesting narrowing of the lines around late June, early July where it appears Republican counties are increasing faster than Democratic counties. 
 
  <img src="images/dem_repub_meanTOTALcases_sliding_scale_7.png" alt="raw" width=75% height=75%/>
 
