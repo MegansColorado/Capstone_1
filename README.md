@@ -1,4 +1,4 @@
-# COVID-19 v. Political Affiliation in California by County
+# COVID-19 and Political Affiliation in California by County
 <img src="https://github.com/MegansColorado/Capstone_1/blob/master/images/politics_of_covid.jpg" alt="raw" width=100% height=100%/>
 <br>
 
