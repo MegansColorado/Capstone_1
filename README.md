@@ -138,10 +138,10 @@ The Mann-Whitney U test is used to compare differences between two independent g
 * Republican Counties show a growth rate for the virus is 4.5%  per day 
 * Democratic Counties show a growth rate of 3.7% per day 
 
-### **Based on the hypothesis tests and the growth rates above, and given the built in disadvantage of having higher population densities in Democratic Counties, we can conclude that there is a significant difference in COVID rates between Democratic and Republican Counties in California.**
+### **Based on the hypothesis tests and the growth rates above, we can conclude that there is a significant difference in COVID rates between Democratic and Republican Counties in California.**
 
 ### F. Future Actions
 
-Moving forward we could do the same for each state in the US and consider how political messaging differs to each group from their respective parties. 
+Moving forward we could do the same for each state in the US and consider how political messaging differs to each group from their respective parties. Would also like to adjust for difference in population densities. 
 
 <img src="https://github.com/MegansColorado/Capstone_1/blob/master/images/covidpolitics.jpg" alt="raw" width=50% height=50%/>
